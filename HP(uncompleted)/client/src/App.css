@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #F5F5F5;
+}
+
+
+
+
+header{
+  display: flex;
+  justify-content: center;
+  border-bottom-color: #0080ff;
+  border-bottom: 2px;
+}
+input{
+  width: 452px ;
+  height: 38px;
+  border-radius: 6px;
+  padding-left: 2px;
+}
+select{
+  width: 216px;
+  height: 38px;
+  border-radius: 6px;
+  padding-left: 2px;
+}
+.input_label{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  color: #818182;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+}
+
+
+.Card{
+  
+}
