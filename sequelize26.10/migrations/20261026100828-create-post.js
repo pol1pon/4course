@@ -18,6 +18,10 @@ module.exports = {
         type: Sequelize.DATE,
         allowNull: false
       },
+      status: {
+        type: Sequelize.ENUM('draft', 'published', 'archived'),
+        defaultValue: 'draft'
+      },
       authorId: {
         type: Sequelize.INTEGER,
         references: {

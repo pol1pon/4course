@@ -8,6 +8,7 @@ module.exports = {
         id: 1,
         name: 'Alexey Smirnov',
         email: 'alexey@example.com',
+        isActive: true,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -15,6 +16,7 @@ module.exports = {
         id: 2,
         name: 'Elena Petrova',
         email: 'elena@example.com',
+        isActive: true,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -22,6 +24,7 @@ module.exports = {
         id: 3,
         name: 'Dmitry Sidorov',
         email: 'dmitry@example.com',
+        isActive: false,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -29,6 +32,7 @@ module.exports = {
         id: 4,
         name: 'Olga Ivanova',
         email: 'olga@example.com',
+        isActive: true,
         createdAt: new Date(),
         updatedAt: new Date()
       }
