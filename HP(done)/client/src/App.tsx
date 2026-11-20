@@ -77,7 +77,6 @@ function App() {
               onChange={(e) => setSchool(e.target.value)}
             >
               <option value=''>Choose one</option>
-              <option value='All'>All</option>
               <option value='Gryffindor'>Gryffindor</option>
               <option value='Slytherin'>Slytherin</option>
             </select>
